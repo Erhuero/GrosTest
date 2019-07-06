@@ -10,13 +10,12 @@ namespace AGTApp.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("GROS TEST");
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Message = "La description de ses morts";
             return View();
         }
 
